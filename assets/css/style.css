@@ -1,0 +1,180 @@
+/*details*/
+.details {
+	background-color: #FFF;
+}
+.details .row {
+	background-color: #FFF;	
+}
+.rightbar {
+	padding-right: 0;
+	padding-left: 0;
+}
+.img {
+	width: 382px;
+	height: 382px;
+}
+.img img {
+	width: 382px;
+	transition: opacity 2s ease-in;
+}
+.thumbnail {
+	border: 1px solid rgb(238,238,238);
+}
+.thumbnail img {
+	width: 60px;
+	cursor: pointer;
+}
+.thumbnail img:hover {
+	cursor: pointer;
+	background-color: #FFF;
+	opacity: .5;
+}
+.nameprod p {
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 20px;
+}	
+.stars {
+	height: 80px;
+	display: flex;
+  align-items: center;
+}
+.priceprod {
+	height: 80px;
+	text-align: right;
+	background-color: rgb(250,250,250);	
+	display: flex;
+ 	align-items: center;
+ 	color: red;
+ 	font-weight: bold;
+}
+.btnComprar {
+	height: 100px;
+	text-align: right;
+	display: flex;
+	align-items: center;
+}
+.title_desc {
+	background-color: #eeeeee;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	width: 100%;
+}
+.description {
+	background-color: #FFF;
+	margin-top: 10px;
+}
+.produto a {
+	text-decoration: none;
+}
+.produto:hover {
+	list-style: none;
+	text-decoration: none;
+	border: 2px solid red;
+	border-radius: 4px;
+}
+
+@media(min-width: 1024px) {
+
+	.nameprod {
+		height: 100px;
+		padding: 2px;
+		display: flex;
+  	align-items: center;
+  }
+
+	.nameprod p {
+		font-size: 18px;
+		text-align: left;
+		margin-top: 15px;
+	}	
+
+  #produto {
+  	margin: 5px auto;
+  }
+
+}
+
+@media(max-width: 390px) {
+
+	.img {
+		width: 100%;
+		
+	}
+	.img img {
+		width: 100%;
+		transition: opacity 2s ease-in;
+	}
+
+}
+
+@media(min-width: 769px) {
+
+  #produto {
+  	margin: 5px auto;
+  }
+
+}
+
+@media(max-width: 768px) {
+
+  #produto {
+  	margin: 5px auto;
+  }
+
+	.nameprod p {
+		font-size: 16px;
+		text-align: center;
+		margin-top: 15px;
+	}	
+
+}
+
+@media(max-width: 992px) {
+
+	.details {
+		
+	}
+	.slider {
+		width: 100%;
+	}
+	.img {
+		display: flex;		
+	}
+	#principal {
+		width: 100%;
+		height: 100%;
+	}
+	.thumbnail {
+		width: 100%;
+	}
+	.rightbar {
+
+	}
+	.stars {
+		padding: 5px 35px 5px;
+	}
+	.nameprod {
+		text-align: center;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.priceprod {
+		padding: 5px 35px 5px;
+	}
+	.btnComprar {
+		padding: 5px 35px 5px;	
+	}
+	.title_desc span {
+		padding: 5px 35px 5px;	
+	}
+	.description {
+		padding: 5px 35px 5px;	
+		text-align: justify;
+	}
+}
+
